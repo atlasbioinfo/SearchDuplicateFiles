@@ -37,14 +37,14 @@ The idea is simple.
 
 ### Small details that have been considered
 
-1. Large files are read in blocks.
+1. Large files are read as blocks to prevent memory overflow
 2. Duplicate files move the one with the longer name.
 3. Adding a index number to the original name.
 4. Do not change suffix names (if any)
 
 ### 考虑到的小细节
 
-1. 大文件以块的形式读取。
+1. 大文件以块的形式读取，防止内存溢出
 2. 重复文件移动名称较长的文件。
 3. 重命名时，在原来的名称中添加一个数字。
 4. 不要更改后缀名(如果有)
